@@ -6,7 +6,6 @@ from selene import browser
 def desktop_version():
     browser.config.window_width = 1920
     browser.config.window_height = 1080
-
     yield
     browser.quit()
 
@@ -15,7 +14,6 @@ def desktop_version():
 def mobile_version():
     browser.config.window_width = 400
     browser.config.window_height = 700
-
     yield
     browser.quit()
 
@@ -28,7 +26,6 @@ def driver(request):
     else:
         browser.config.window_width = 400
         browser.config.window_height = 700
-
     yield
     browser.quit()
 

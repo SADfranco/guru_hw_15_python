@@ -3,7 +3,6 @@
 Пропустите мобильный тест, если соотношение сторон десктопное (и наоборот)
 """
 import pytest
-
 from selene import browser
 from pages.github_main import github_main
 

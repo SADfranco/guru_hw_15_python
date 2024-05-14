@@ -3,7 +3,6 @@
 """
 
 import pytest
-
 from pages.github_main import github_main
 
 

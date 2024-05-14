@@ -3,6 +3,7 @@
 """
 from pages.github_main import github_main
 
+
 def test_github_desktop(desktop_version):
     github_main.open()
     github_main.desktop_sign_in()

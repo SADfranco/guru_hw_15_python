@@ -1,5 +1,6 @@
 from selene import browser, have
 
+
 class GitHubPage:
     def open(self):
         browser.open("https://github.com")
